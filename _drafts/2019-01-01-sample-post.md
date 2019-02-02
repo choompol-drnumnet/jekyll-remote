@@ -22,11 +22,17 @@ categories:
 - [Embedded link](http://google.com)
 - Visible link <http://google.com>
 
-### Sample image
-{% include figure image_path="/images/2019/sample-300x200.jpg" alt="sample image" caption="sample caption" %}
+### Link to sample.PDF in pre-slash baseurl documents folder
+- [link to PDF](/jack-site/documents/sample.pdf)
 
-### Sample image alignment (right or left)
-{% include figure image_path="/images/2019/sample-300x200.jpg" alt="sample image" caption="sample caption" %}{: .align-right}
+### Markdown image in pre-slash baseurl root images folder (actual size, but no caption)
+![sample caption](/jack-site/images/sample-300x200.jpg)
+
+### Liquid image in no baseurl no-slash root images folder (auto-wide, with caption)
+{% include figure image_path="images/sample-300x200" alt="sample image" caption="sample caption" %}
+
+### Sample image alignment (right or left) with Liquid (no-slash)
+{% include figure image_path="images/sample-300x200.jpg" alt="sample image" caption="sample caption" %}{: .align-right}
 This is Liquid format with sample text, with space for caption, for alignment testing. This is Liquid format with sample text, with space for caption, for alignment testing. This is Liquid format with sample text, with space for caption, for alignment testing. This is Liquid format with sample text, with space for caption, for alignment testing. This is Liquid format with sample text, with space for caption, for alignment testing.
 
 ### Sample YouTube
