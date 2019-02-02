@@ -53,42 +53,22 @@ Code:
 Demo:
 <iframe src="https://jackdougherty.youcanbook.me/" width="100%" height="600px"></iframe>
 
-### Image without caption using Markdown
-
-Pathname refers to `assets/images/` folder
-
-Code (to come)
+### Image with Markdown and basic caption in assets folder
 
 Demo:
 
-![](assets/images/sample-300x200.jpg)
+![basic  caption](assets/sample-300x200.jpg)
 
 ### Image with caption [Liquid templating](https://jekyllrb.com/docs/liquid/)
 
 Use Liquid (caption appears in Minimal-Mistakes theme) instead of Markdown (no caption appears). Pathname refers to `assets/images/` folder
 
-Code:
-{% raw %}
-```markdown
-{% include figure image_path="assets/images/sample-300x200.jpg" alt="sample image" caption="here's the sample image" %}
-```
-{% endraw %}
-
 Demo:
-{% include figure image_path="assets/images/sample-300x200.jpg" alt="sample image" caption="here's the sample image" %}
+{% include figure image_path="assets/sample-300x200.jpg" alt="sample image" caption="here's the sample image" %}
 
 ### Image alignment (right or left) with caption
 
-Code:
-{% raw %}
-```markdown
-{% include figure image_path="/images/sample-300x200.jpg" alt="sample image" caption="sample caption" %}{: .align-right}
-This sample text demonstrates the wrap-around feature with aligned images. This sample text demonstrates the wrap-around feature with aligned images. This sample text demonstrates the wrap-around feature with aligned images. This sample text demonstrates the wrap-around feature with aligned images. This sample text demonstrates the wrap-around feature with aligned images.
-```
-{% endraw %}
-
-Demo:
-{% include figure image_path="/images/sample-300x200.jpg" alt="sample image" caption="sample caption" %}{: .align-right}
+{% include figure image_path="assets/sample-300x200.jpg" alt="sample image" caption="sample caption" %}{: .align-right}
 This sample text demonstrates the wrap-around feature with aligned images. This sample text demonstrates the wrap-around feature with aligned images. This sample text demonstrates the wrap-around feature with aligned images. This sample text demonstrates the wrap-around feature with aligned images. This sample text demonstrates the wrap-around feature with aligned images.
 
 ### YouTube embed
