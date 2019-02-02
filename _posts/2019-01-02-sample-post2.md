@@ -18,6 +18,13 @@ categories:
   - data visualization
   - web writing
 ---
+### Markdown image in pre-slash root images
+![sample caption](/images/lobster-root-300x300.jpg)
+
+### Markdown image in no-slash root images
+![sample caption](images/lobster-root-300x300.jpg)
+
+
 ### Link to sample.PDF in pre-slash repo-assets-2019 with pre-slash
 - [link to PDF](/jekyll-remote/assets/2019/sample.pdf)
 
@@ -29,13 +36,6 @@ categories:
 
 ### Link to sample.PDF in no-slash assets-2019
 - [link to PDF](assets/2019/sample.pdf)
-
-
-### Markdown image in pre-slash assets-images
-![sample caption](/assets/images/lobster-image-300x300.jpg)
-
-### Markdown image in no-slash assets-images
-![sample caption](assets/images/lobster-image-300x300.jpg)
 
 
 ### Sample image in assets 2019 with Liquid
