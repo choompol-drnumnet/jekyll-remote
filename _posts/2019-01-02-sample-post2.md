@@ -1,6 +1,6 @@
 ---
 title: 'Sample Post2'
-date: 2019-01-03
+date: 2019-01-02
 permalink: /2019/01/02/sample-post2/
 categories:
   - teaching
@@ -22,8 +22,14 @@ categories:
 - [Embedded link](http://google.com)
 - Visible link <http://google.com>
 
-### Sample image
-{% include figure image_path="/images/2019/sample-300x200.jpg" alt="sample image" caption="sample caption" %}
+### Sample image with no pre-slash
+{% include figure image_path="images/sample-300x200.jpg" alt="sample image" caption="sample caption" %}
+
+### Sample image with pre-slash
+{% include figure image_path="/images/sample-300x200.jpg" alt="sample image" caption="sample caption" %}
+
+### Sample image with two dots and pre-slash
+{% include figure image_path="../images/sample-300x200.jpg" alt="sample image" caption="sample caption" %}
 
 ### Sample image alignment (right or left)
 {% include figure image_path="/images/2019/sample-300x200.jpg" alt="sample image" caption="sample caption" %}{: .align-right}
