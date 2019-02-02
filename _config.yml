@@ -106,9 +106,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  name             : "Mr. Lobster"
+  avatar           : "/uploads/lobster-300x300.jpg"
+  bio              : "I am an amazing lobster."
   location         : "Somewhere"
   email            :
   links:
