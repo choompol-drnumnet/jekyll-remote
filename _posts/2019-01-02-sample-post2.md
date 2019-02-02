@@ -18,17 +18,25 @@ categories:
   - data visualization
   - web writing
 ---
-### Link to sample.PDF in assets 2019 with pre-slash
+### Link to sample.PDF in pre-slash repo-assets-2019 with pre-slash
+- [link to PDF](/jekyll-remote/assets/2019/sample.pdf)
+
+### Link to sample.PDF in no-slash repo-assets-2019
+- [link to PDF](jekyll-remote/assets/2019/sample.pdf)
+
+### Link to sample.PDF in pre-slash assets-2019
 - [link to PDF](/assets/2019/sample.pdf)
 
-### Link to sample.PDF in assets 2019 without pre-slash
+### Link to sample.PDF in no-slash assets-2019
 - [link to PDF](assets/2019/sample.pdf)
 
-### Sample image with standard markdown in assets 2019 without pre-slash
-![sample caption](/assets/2019/sample-post-image-300x200.jpg)
 
-### Sample image with standard markdown in assets 2019 without pre-slash
-![sample caption](/assets/2019/sample-post-image-300x200.jpg)
+### Markdown image in pre-slash assets-images
+![sample caption](/assets/images/lobster-image-300x300.jpg)
+
+### Markdown image in no-slash assets-images
+![sample caption](assets/images/lobster-image-300x300.jpg)
+
 
 ### Sample image in assets 2019 with Liquid
 {% include figure image_path="assets/2019/sample-post-image-300x200.jpg" alt="sample image" caption="sample caption" %}
