@@ -18,12 +18,16 @@ categories:
   - data visualization
   - web writing
 ---
-### List of sample links
-- [Embedded link](http://google.com)
-- Visible link <http://google.com>
+### Link to sample.PDF in uploads 2019 with pre-slash
+- [link to PDF](/uploads/2019/sample.pdf)
 
-### Sample image with standard markdown in uploads 2019
-![sample caption](uploads/2019/sample2-300x200.jpg)
+### Link to sample.PDF in uploads 2019 without pre-slash
+- [link to PDF](uploads/2019/sample.pdf)
+
+### Sample image with standard markdown in uploads 2019 with pre-slash
+![sample caption](/uploads/2019/sample2-300x200.jpg)
+
+does not work *without* pre-slash, and probably does not work *with* pre-slash
 
 ### Sample image in uploads 2019 (bridge) with Liquid
 {% include figure image_path="uploads/2019/sample2-300x200.jpg" alt="sample image" caption="sample caption" %}
@@ -32,7 +36,7 @@ categories:
 {% include figure image_path="/uploads/sample-300x200.jpg" alt="sample image" caption="sample caption" %}
 
 ### Sample image alignment (right or left) with Liquid
-{% include figure image_path="/uploads/2019/sample-300x200.jpg" alt="sample image" caption="sample caption" %}{: .align-right}
+{% include figure image_path="/uploads/2019/sample2-300x200.jpg" alt="sample image" caption="sample caption" %}{: .align-right}
 This is Liquid format with sample text, with space for caption, for alignment testing. This is Liquid format with sample text, with space for caption, for alignment testing. This is Liquid format with sample text, with space for caption, for alignment testing. This is Liquid format with sample text, with space for caption, for alignment testing. This is Liquid format with sample text, with space for caption, for alignment testing.
 
 ### Sample YouTube
