@@ -17,19 +17,13 @@ On home.md feature_row, to delete "Learn More" button but keep clickable images 
 
 In `_includes` > feature_row, line 46, delete this portion: `{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}`
 
-### Markdown image with baseurl pathname, actual size, but no caption
+### Markdown image with pre-slash baseurl pathname, actual size, but no caption
 ![root image caption](/jekyll-remote/images/lobster-root-300x300.jpg)
-
-### [Liquid templating](https://jekyllrb.com/docs/liquid/) image in root pre-slash baseurl images, width=100%, caption  
-{% include figure image_path="/jekyll-remote/images/lobster-root-300x300.jpg" alt="sample image" caption="here's the sample image" %}
-
-### [Liquid templating](https://jekyllrb.com/docs/liquid/) image in root pre-slash images  
-{% include figure image_path="/images/lobster-root-300x300.jpg" alt="sample image" caption="here's the sample image" %}
 
 ### [Liquid templating](https://jekyllrb.com/docs/liquid/) image in root no-slash images  
 {% include figure image_path="images/lobster-root-300x300.jpg" alt="sample image" caption="here's the sample image" %}
 
-### Liquid image in root no-slash aligned wth caption
+### Liquid image in root no-slash aligned with caption
 {% include figure image_path="images/lobster-root-300x300.jpg" alt="sample image" caption="sample caption" %}{: .align-right}
 This sample text demonstrates the wrap-around feature with aligned images. This sample text demonstrates the wrap-around feature with aligned images. This sample text demonstrates the wrap-around feature with aligned images. This sample text demonstrates the wrap-around feature with aligned images. This sample text demonstrates the wrap-around feature with aligned images.
 
