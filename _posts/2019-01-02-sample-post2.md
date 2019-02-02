@@ -18,12 +18,13 @@ categories:
   - data visualization
   - web writing
 ---
-### Markdown image in pre-slash root images
-![sample caption](/images/lobster-root-300x300.jpg)
+### Markdown image in pre-slash baseurl root images
+![sample caption](/jekyll-remote/images/lobster-root-300x300.jpg)
 
-### Markdown image in no-slash root images
-![sample caption](images/lobster-root-300x300.jpg)
+### Markdown image in no-slash baseurl root images
+![sample caption](jekyll-remote/images/lobster-root-300x300.jpg)
 
+## FIX PDFs later
 
 ### Link to sample.PDF in pre-slash repo-assets-2019 with pre-slash
 - [link to PDF](/jekyll-remote/assets/2019/sample.pdf)
